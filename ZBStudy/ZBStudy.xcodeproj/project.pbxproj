@@ -15,6 +15,7 @@
 		8DECCFA9247D007D008495F4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DECCFA7247D007D008495F4 /* LaunchScreen.storyboard */; };
 		8DECCFB4247D007D008495F4 /* ZBStudyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DECCFB3247D007D008495F4 /* ZBStudyTests.swift */; };
 		8DECCFBF247D007D008495F4 /* ZBStudyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DECCFBE247D007D008495F4 /* ZBStudyUITests.swift */; };
+		8DECCFCD247D01C6008495F4 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DECCFCC247D01C6008495F4 /* Storyboard.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		8DECCFBA247D007D008495F4 /* ZBStudyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZBStudyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8DECCFBE247D007D008495F4 /* ZBStudyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZBStudyUITests.swift; sourceTree = "<group>"; };
 		8DECCFC0247D007D008495F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8DECCFCC247D01C6008495F4 /* Storyboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				8DECCFA7247D007D008495F4 /* LaunchScreen.storyboard */,
 				8DECCFAA247D007D008495F4 /* Info.plist */,
 				8DECCFA4247D007D008495F4 /* Preview Content */,
+				8DECCFCC247D01C6008495F4 /* Storyboard.storyboard */,
 			);
 			path = ZBStudy;
 			sourceTree = "<group>";
@@ -241,6 +244,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8DECCFA9247D007D008495F4 /* LaunchScreen.storyboard in Resources */,
+				8DECCFCD247D01C6008495F4 /* Storyboard.storyboard in Resources */,
 				8DECCFA6247D007D008495F4 /* Preview Assets.xcassets in Resources */,
 				8DECCFA3247D007D008495F4 /* Assets.xcassets in Resources */,
 			);
