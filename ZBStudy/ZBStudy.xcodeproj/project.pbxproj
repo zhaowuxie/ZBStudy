@@ -7,68 +7,66 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8DECCF9D247D007C008495F4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DECCF9C247D007C008495F4 /* AppDelegate.swift */; };
-		8DECCF9F247D007C008495F4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DECCF9E247D007C008495F4 /* SceneDelegate.swift */; };
-		8DECCFA1247D007C008495F4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DECCFA0247D007C008495F4 /* ContentView.swift */; };
-		8DECCFA3247D007D008495F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8DECCFA2247D007D008495F4 /* Assets.xcassets */; };
-		8DECCFA6247D007D008495F4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8DECCFA5247D007D008495F4 /* Preview Assets.xcassets */; };
-		8DECCFA9247D007D008495F4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DECCFA7247D007D008495F4 /* LaunchScreen.storyboard */; };
-		8DECCFB4247D007D008495F4 /* ZBStudyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DECCFB3247D007D008495F4 /* ZBStudyTests.swift */; };
-		8DECCFBF247D007D008495F4 /* ZBStudyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DECCFBE247D007D008495F4 /* ZBStudyUITests.swift */; };
-		8DECCFCD247D01C6008495F4 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DECCFCC247D01C6008495F4 /* Storyboard.storyboard */; };
+		8DECCFE1247D0A33008495F4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DECCFE0247D0A33008495F4 /* AppDelegate.swift */; };
+		8DECCFE3247D0A33008495F4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DECCFE2247D0A33008495F4 /* SceneDelegate.swift */; };
+		8DECCFE5247D0A33008495F4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DECCFE4247D0A33008495F4 /* ViewController.swift */; };
+		8DECCFE8247D0A33008495F4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DECCFE6247D0A33008495F4 /* Main.storyboard */; };
+		8DECCFEA247D0A33008495F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8DECCFE9247D0A33008495F4 /* Assets.xcassets */; };
+		8DECCFED247D0A33008495F4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DECCFEB247D0A33008495F4 /* LaunchScreen.storyboard */; };
+		8DECCFF8247D0A34008495F4 /* ZBStudyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DECCFF7247D0A34008495F4 /* ZBStudyTests.swift */; };
+		8DECD003247D0A34008495F4 /* ZBStudyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DECD002247D0A34008495F4 /* ZBStudyUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		8DECCFB0247D007D008495F4 /* PBXContainerItemProxy */ = {
+		8DECCFF4247D0A34008495F4 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 8DECCF91247D007C008495F4 /* Project object */;
+			containerPortal = 8DECCFD5247D0A33008495F4 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 8DECCF98247D007C008495F4;
+			remoteGlobalIDString = 8DECCFDC247D0A33008495F4;
 			remoteInfo = ZBStudy;
 		};
-		8DECCFBB247D007D008495F4 /* PBXContainerItemProxy */ = {
+		8DECCFFF247D0A34008495F4 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 8DECCF91247D007C008495F4 /* Project object */;
+			containerPortal = 8DECCFD5247D0A33008495F4 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 8DECCF98247D007C008495F4;
+			remoteGlobalIDString = 8DECCFDC247D0A33008495F4;
 			remoteInfo = ZBStudy;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		8DECCF99247D007C008495F4 /* ZBStudy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZBStudy.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		8DECCF9C247D007C008495F4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8DECCF9E247D007C008495F4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		8DECCFA0247D007C008495F4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		8DECCFA2247D007D008495F4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		8DECCFA5247D007D008495F4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		8DECCFA8247D007D008495F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		8DECCFAA247D007D008495F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8DECCFAF247D007D008495F4 /* ZBStudyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZBStudyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		8DECCFB3247D007D008495F4 /* ZBStudyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZBStudyTests.swift; sourceTree = "<group>"; };
-		8DECCFB5247D007D008495F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8DECCFBA247D007D008495F4 /* ZBStudyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZBStudyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		8DECCFBE247D007D008495F4 /* ZBStudyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZBStudyUITests.swift; sourceTree = "<group>"; };
-		8DECCFC0247D007D008495F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8DECCFCC247D01C6008495F4 /* Storyboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
+		8DECCFDD247D0A33008495F4 /* ZBStudy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZBStudy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8DECCFE0247D0A33008495F4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8DECCFE2247D0A33008495F4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		8DECCFE4247D0A33008495F4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8DECCFE7247D0A33008495F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8DECCFE9247D0A33008495F4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8DECCFEC247D0A33008495F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8DECCFEE247D0A33008495F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8DECCFF3247D0A34008495F4 /* ZBStudyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZBStudyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8DECCFF7247D0A34008495F4 /* ZBStudyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZBStudyTests.swift; sourceTree = "<group>"; };
+		8DECCFF9247D0A34008495F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8DECCFFE247D0A34008495F4 /* ZBStudyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZBStudyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8DECD002247D0A34008495F4 /* ZBStudyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZBStudyUITests.swift; sourceTree = "<group>"; };
+		8DECD004247D0A34008495F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		8DECCF96247D007C008495F4 /* Frameworks */ = {
+		8DECCFDA247D0A33008495F4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8DECCFAC247D007D008495F4 /* Frameworks */ = {
+		8DECCFF0247D0A34008495F4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8DECCFB7247D007D008495F4 /* Frameworks */ = {
+		8DECCFFB247D0A34008495F4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -78,63 +76,54 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		8DECCF90247D007C008495F4 = {
+		8DECCFD4247D0A33008495F4 = {
 			isa = PBXGroup;
 			children = (
-				8DECCF9B247D007C008495F4 /* ZBStudy */,
-				8DECCFB2247D007D008495F4 /* ZBStudyTests */,
-				8DECCFBD247D007D008495F4 /* ZBStudyUITests */,
-				8DECCF9A247D007C008495F4 /* Products */,
+				8DECCFDF247D0A33008495F4 /* ZBStudy */,
+				8DECCFF6247D0A34008495F4 /* ZBStudyTests */,
+				8DECD001247D0A34008495F4 /* ZBStudyUITests */,
+				8DECCFDE247D0A33008495F4 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		8DECCF9A247D007C008495F4 /* Products */ = {
+		8DECCFDE247D0A33008495F4 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8DECCF99247D007C008495F4 /* ZBStudy.app */,
-				8DECCFAF247D007D008495F4 /* ZBStudyTests.xctest */,
-				8DECCFBA247D007D008495F4 /* ZBStudyUITests.xctest */,
+				8DECCFDD247D0A33008495F4 /* ZBStudy.app */,
+				8DECCFF3247D0A34008495F4 /* ZBStudyTests.xctest */,
+				8DECCFFE247D0A34008495F4 /* ZBStudyUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		8DECCF9B247D007C008495F4 /* ZBStudy */ = {
+		8DECCFDF247D0A33008495F4 /* ZBStudy */ = {
 			isa = PBXGroup;
 			children = (
-				8DECCF9C247D007C008495F4 /* AppDelegate.swift */,
-				8DECCF9E247D007C008495F4 /* SceneDelegate.swift */,
-				8DECCFA0247D007C008495F4 /* ContentView.swift */,
-				8DECCFA2247D007D008495F4 /* Assets.xcassets */,
-				8DECCFA7247D007D008495F4 /* LaunchScreen.storyboard */,
-				8DECCFAA247D007D008495F4 /* Info.plist */,
-				8DECCFA4247D007D008495F4 /* Preview Content */,
-				8DECCFCC247D01C6008495F4 /* Storyboard.storyboard */,
+				8DECCFE0247D0A33008495F4 /* AppDelegate.swift */,
+				8DECCFE2247D0A33008495F4 /* SceneDelegate.swift */,
+				8DECCFE4247D0A33008495F4 /* ViewController.swift */,
+				8DECCFE6247D0A33008495F4 /* Main.storyboard */,
+				8DECCFE9247D0A33008495F4 /* Assets.xcassets */,
+				8DECCFEB247D0A33008495F4 /* LaunchScreen.storyboard */,
+				8DECCFEE247D0A33008495F4 /* Info.plist */,
 			);
 			path = ZBStudy;
 			sourceTree = "<group>";
 		};
-		8DECCFA4247D007D008495F4 /* Preview Content */ = {
+		8DECCFF6247D0A34008495F4 /* ZBStudyTests */ = {
 			isa = PBXGroup;
 			children = (
-				8DECCFA5247D007D008495F4 /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		8DECCFB2247D007D008495F4 /* ZBStudyTests */ = {
-			isa = PBXGroup;
-			children = (
-				8DECCFB3247D007D008495F4 /* ZBStudyTests.swift */,
-				8DECCFB5247D007D008495F4 /* Info.plist */,
+				8DECCFF7247D0A34008495F4 /* ZBStudyTests.swift */,
+				8DECCFF9247D0A34008495F4 /* Info.plist */,
 			);
 			path = ZBStudyTests;
 			sourceTree = "<group>";
 		};
-		8DECCFBD247D007D008495F4 /* ZBStudyUITests */ = {
+		8DECD001247D0A34008495F4 /* ZBStudyUITests */ = {
 			isa = PBXGroup;
 			children = (
-				8DECCFBE247D007D008495F4 /* ZBStudyUITests.swift */,
-				8DECCFC0247D007D008495F4 /* Info.plist */,
+				8DECD002247D0A34008495F4 /* ZBStudyUITests.swift */,
+				8DECD004247D0A34008495F4 /* Info.plist */,
 			);
 			path = ZBStudyUITests;
 			sourceTree = "<group>";
@@ -142,13 +131,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		8DECCF98247D007C008495F4 /* ZBStudy */ = {
+		8DECCFDC247D0A33008495F4 /* ZBStudy */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8DECCFC3247D007D008495F4 /* Build configuration list for PBXNativeTarget "ZBStudy" */;
+			buildConfigurationList = 8DECD007247D0A34008495F4 /* Build configuration list for PBXNativeTarget "ZBStudy" */;
 			buildPhases = (
-				8DECCF95247D007C008495F4 /* Sources */,
-				8DECCF96247D007C008495F4 /* Frameworks */,
-				8DECCF97247D007C008495F4 /* Resources */,
+				8DECCFD9247D0A33008495F4 /* Sources */,
+				8DECCFDA247D0A33008495F4 /* Frameworks */,
+				8DECCFDB247D0A33008495F4 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -156,69 +145,69 @@
 			);
 			name = ZBStudy;
 			productName = ZBStudy;
-			productReference = 8DECCF99247D007C008495F4 /* ZBStudy.app */;
+			productReference = 8DECCFDD247D0A33008495F4 /* ZBStudy.app */;
 			productType = "com.apple.product-type.application";
 		};
-		8DECCFAE247D007D008495F4 /* ZBStudyTests */ = {
+		8DECCFF2247D0A34008495F4 /* ZBStudyTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8DECCFC6247D007D008495F4 /* Build configuration list for PBXNativeTarget "ZBStudyTests" */;
+			buildConfigurationList = 8DECD00A247D0A34008495F4 /* Build configuration list for PBXNativeTarget "ZBStudyTests" */;
 			buildPhases = (
-				8DECCFAB247D007D008495F4 /* Sources */,
-				8DECCFAC247D007D008495F4 /* Frameworks */,
-				8DECCFAD247D007D008495F4 /* Resources */,
+				8DECCFEF247D0A34008495F4 /* Sources */,
+				8DECCFF0247D0A34008495F4 /* Frameworks */,
+				8DECCFF1247D0A34008495F4 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				8DECCFB1247D007D008495F4 /* PBXTargetDependency */,
+				8DECCFF5247D0A34008495F4 /* PBXTargetDependency */,
 			);
 			name = ZBStudyTests;
 			productName = ZBStudyTests;
-			productReference = 8DECCFAF247D007D008495F4 /* ZBStudyTests.xctest */;
+			productReference = 8DECCFF3247D0A34008495F4 /* ZBStudyTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		8DECCFB9247D007D008495F4 /* ZBStudyUITests */ = {
+		8DECCFFD247D0A34008495F4 /* ZBStudyUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8DECCFC9247D007D008495F4 /* Build configuration list for PBXNativeTarget "ZBStudyUITests" */;
+			buildConfigurationList = 8DECD00D247D0A34008495F4 /* Build configuration list for PBXNativeTarget "ZBStudyUITests" */;
 			buildPhases = (
-				8DECCFB6247D007D008495F4 /* Sources */,
-				8DECCFB7247D007D008495F4 /* Frameworks */,
-				8DECCFB8247D007D008495F4 /* Resources */,
+				8DECCFFA247D0A34008495F4 /* Sources */,
+				8DECCFFB247D0A34008495F4 /* Frameworks */,
+				8DECCFFC247D0A34008495F4 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				8DECCFBC247D007D008495F4 /* PBXTargetDependency */,
+				8DECD000247D0A34008495F4 /* PBXTargetDependency */,
 			);
 			name = ZBStudyUITests;
 			productName = ZBStudyUITests;
-			productReference = 8DECCFBA247D007D008495F4 /* ZBStudyUITests.xctest */;
+			productReference = 8DECCFFE247D0A34008495F4 /* ZBStudyUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		8DECCF91247D007C008495F4 /* Project object */ = {
+		8DECCFD5247D0A33008495F4 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1140;
 				LastUpgradeCheck = 1140;
 				ORGANIZATIONNAME = "赵兵";
 				TargetAttributes = {
-					8DECCF98247D007C008495F4 = {
+					8DECCFDC247D0A33008495F4 = {
 						CreatedOnToolsVersion = 11.4.1;
 					};
-					8DECCFAE247D007D008495F4 = {
+					8DECCFF2247D0A34008495F4 = {
 						CreatedOnToolsVersion = 11.4.1;
-						TestTargetID = 8DECCF98247D007C008495F4;
+						TestTargetID = 8DECCFDC247D0A33008495F4;
 					};
-					8DECCFB9247D007D008495F4 = {
+					8DECCFFD247D0A34008495F4 = {
 						CreatedOnToolsVersion = 11.4.1;
-						TestTargetID = 8DECCF98247D007C008495F4;
+						TestTargetID = 8DECCFDC247D0A33008495F4;
 					};
 				};
 			};
-			buildConfigurationList = 8DECCF94247D007C008495F4 /* Build configuration list for PBXProject "ZBStudy" */;
+			buildConfigurationList = 8DECCFD8247D0A33008495F4 /* Build configuration list for PBXProject "ZBStudy" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -226,38 +215,37 @@
 				en,
 				Base,
 			);
-			mainGroup = 8DECCF90247D007C008495F4;
-			productRefGroup = 8DECCF9A247D007C008495F4 /* Products */;
+			mainGroup = 8DECCFD4247D0A33008495F4;
+			productRefGroup = 8DECCFDE247D0A33008495F4 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8DECCF98247D007C008495F4 /* ZBStudy */,
-				8DECCFAE247D007D008495F4 /* ZBStudyTests */,
-				8DECCFB9247D007D008495F4 /* ZBStudyUITests */,
+				8DECCFDC247D0A33008495F4 /* ZBStudy */,
+				8DECCFF2247D0A34008495F4 /* ZBStudyTests */,
+				8DECCFFD247D0A34008495F4 /* ZBStudyUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		8DECCF97247D007C008495F4 /* Resources */ = {
+		8DECCFDB247D0A33008495F4 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8DECCFA9247D007D008495F4 /* LaunchScreen.storyboard in Resources */,
-				8DECCFCD247D01C6008495F4 /* Storyboard.storyboard in Resources */,
-				8DECCFA6247D007D008495F4 /* Preview Assets.xcassets in Resources */,
-				8DECCFA3247D007D008495F4 /* Assets.xcassets in Resources */,
+				8DECCFED247D0A33008495F4 /* LaunchScreen.storyboard in Resources */,
+				8DECCFEA247D0A33008495F4 /* Assets.xcassets in Resources */,
+				8DECCFE8247D0A33008495F4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8DECCFAD247D007D008495F4 /* Resources */ = {
+		8DECCFF1247D0A34008495F4 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8DECCFB8247D007D008495F4 /* Resources */ = {
+		8DECCFFC247D0A34008495F4 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -267,52 +255,60 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		8DECCF95247D007C008495F4 /* Sources */ = {
+		8DECCFD9247D0A33008495F4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8DECCF9D247D007C008495F4 /* AppDelegate.swift in Sources */,
-				8DECCF9F247D007C008495F4 /* SceneDelegate.swift in Sources */,
-				8DECCFA1247D007C008495F4 /* ContentView.swift in Sources */,
+				8DECCFE5247D0A33008495F4 /* ViewController.swift in Sources */,
+				8DECCFE1247D0A33008495F4 /* AppDelegate.swift in Sources */,
+				8DECCFE3247D0A33008495F4 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8DECCFAB247D007D008495F4 /* Sources */ = {
+		8DECCFEF247D0A34008495F4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8DECCFB4247D007D008495F4 /* ZBStudyTests.swift in Sources */,
+				8DECCFF8247D0A34008495F4 /* ZBStudyTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8DECCFB6247D007D008495F4 /* Sources */ = {
+		8DECCFFA247D0A34008495F4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8DECCFBF247D007D008495F4 /* ZBStudyUITests.swift in Sources */,
+				8DECD003247D0A34008495F4 /* ZBStudyUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		8DECCFB1247D007D008495F4 /* PBXTargetDependency */ = {
+		8DECCFF5247D0A34008495F4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 8DECCF98247D007C008495F4 /* ZBStudy */;
-			targetProxy = 8DECCFB0247D007D008495F4 /* PBXContainerItemProxy */;
+			target = 8DECCFDC247D0A33008495F4 /* ZBStudy */;
+			targetProxy = 8DECCFF4247D0A34008495F4 /* PBXContainerItemProxy */;
 		};
-		8DECCFBC247D007D008495F4 /* PBXTargetDependency */ = {
+		8DECD000247D0A34008495F4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 8DECCF98247D007C008495F4 /* ZBStudy */;
-			targetProxy = 8DECCFBB247D007D008495F4 /* PBXContainerItemProxy */;
+			target = 8DECCFDC247D0A33008495F4 /* ZBStudy */;
+			targetProxy = 8DECCFFF247D0A34008495F4 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		8DECCFA7247D007D008495F4 /* LaunchScreen.storyboard */ = {
+		8DECCFE6247D0A33008495F4 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				8DECCFA8247D007D008495F4 /* Base */,
+				8DECCFE7247D0A33008495F4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8DECCFEB247D0A33008495F4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8DECCFEC247D0A33008495F4 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -320,7 +316,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		8DECCFC1247D007D008495F4 /* Debug */ = {
+		8DECD005247D0A34008495F4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -380,7 +376,7 @@
 			};
 			name = Debug;
 		};
-		8DECCFC2247D007D008495F4 /* Release */ = {
+		8DECD006247D0A34008495F4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -434,14 +430,12 @@
 			};
 			name = Release;
 		};
-		8DECCFC4247D007D008495F4 /* Debug */ = {
+		8DECD008247D0A34008495F4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"ZBStudy/Preview Content\"";
 				DEVELOPMENT_TEAM = 2ELK2639YL;
-				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = ZBStudy/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -454,14 +448,12 @@
 			};
 			name = Debug;
 		};
-		8DECCFC5247D007D008495F4 /* Release */ = {
+		8DECD009247D0A34008495F4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"ZBStudy/Preview Content\"";
 				DEVELOPMENT_TEAM = 2ELK2639YL;
-				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = ZBStudy/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -474,7 +466,7 @@
 			};
 			name = Release;
 		};
-		8DECCFC7247D007D008495F4 /* Debug */ = {
+		8DECD00B247D0A34008495F4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -496,7 +488,7 @@
 			};
 			name = Debug;
 		};
-		8DECCFC8247D007D008495F4 /* Release */ = {
+		8DECD00C247D0A34008495F4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -518,7 +510,7 @@
 			};
 			name = Release;
 		};
-		8DECCFCA247D007D008495F4 /* Debug */ = {
+		8DECD00E247D0A34008495F4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -538,7 +530,7 @@
 			};
 			name = Debug;
 		};
-		8DECCFCB247D007D008495F4 /* Release */ = {
+		8DECD00F247D0A34008495F4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -561,43 +553,43 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		8DECCF94247D007C008495F4 /* Build configuration list for PBXProject "ZBStudy" */ = {
+		8DECCFD8247D0A33008495F4 /* Build configuration list for PBXProject "ZBStudy" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8DECCFC1247D007D008495F4 /* Debug */,
-				8DECCFC2247D007D008495F4 /* Release */,
+				8DECD005247D0A34008495F4 /* Debug */,
+				8DECD006247D0A34008495F4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8DECCFC3247D007D008495F4 /* Build configuration list for PBXNativeTarget "ZBStudy" */ = {
+		8DECD007247D0A34008495F4 /* Build configuration list for PBXNativeTarget "ZBStudy" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8DECCFC4247D007D008495F4 /* Debug */,
-				8DECCFC5247D007D008495F4 /* Release */,
+				8DECD008247D0A34008495F4 /* Debug */,
+				8DECD009247D0A34008495F4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8DECCFC6247D007D008495F4 /* Build configuration list for PBXNativeTarget "ZBStudyTests" */ = {
+		8DECD00A247D0A34008495F4 /* Build configuration list for PBXNativeTarget "ZBStudyTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8DECCFC7247D007D008495F4 /* Debug */,
-				8DECCFC8247D007D008495F4 /* Release */,
+				8DECD00B247D0A34008495F4 /* Debug */,
+				8DECD00C247D0A34008495F4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8DECCFC9247D007D008495F4 /* Build configuration list for PBXNativeTarget "ZBStudyUITests" */ = {
+		8DECD00D247D0A34008495F4 /* Build configuration list for PBXNativeTarget "ZBStudyUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8DECCFCA247D007D008495F4 /* Debug */,
-				8DECCFCB247D007D008495F4 /* Release */,
+				8DECD00E247D0A34008495F4 /* Debug */,
+				8DECD00F247D0A34008495F4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 8DECCF91247D007C008495F4 /* Project object */;
+	rootObject = 8DECCFD5247D0A33008495F4 /* Project object */;
 }
