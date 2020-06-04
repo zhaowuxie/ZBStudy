@@ -7,13 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8D3764A92489303C003B32B8 /* CJAPIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D3764A82489303C003B32B8 /* CJAPIService.swift */; };
+		8D3764AB24893047003B32B8 /* CJDBService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D3764AA24893047003B32B8 /* CJDBService.swift */; };
+		8D3764B224893290003B32B8 /* CJBaseNetWork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D3764B124893290003B32B8 /* CJBaseNetWork.swift */; };
+		8D3764BB248935F3003B32B8 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D3764BA248935F3003B32B8 /* ViewModel.swift */; };
+		8D3764BD248935FC003B32B8 /* GitHubRepositories.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D3764BC248935FC003B32B8 /* GitHubRepositories.swift */; };
+		8D3764BF24893606003B32B8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D3764BE24893606003B32B8 /* ViewController.swift */; };
 		8DECCFE1247D0A33008495F4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DECCFE0247D0A33008495F4 /* AppDelegate.swift */; };
-		8DECCFE8247D0A33008495F4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DECCFE6247D0A33008495F4 /* Main.storyboard */; };
 		8DECCFEA247D0A33008495F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8DECCFE9247D0A33008495F4 /* Assets.xcassets */; };
 		8DECCFED247D0A33008495F4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DECCFEB247D0A33008495F4 /* LaunchScreen.storyboard */; };
 		8DECCFF8247D0A34008495F4 /* ZBStudyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DECCFF7247D0A34008495F4 /* ZBStudyTests.swift */; };
 		8DECD003247D0A34008495F4 /* ZBStudyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DECD002247D0A34008495F4 /* ZBStudyUITests.swift */; };
-		8DECD016247D0D0D008495F4 /* ZBViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DECD014247D0D0D008495F4 /* ZBViewController.swift */; };
+		F3296DE40BACFEB0A0C487E1 /* libPods-ZBStudy.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A3530946B545B11286AF4E64 /* libPods-ZBStudy.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +39,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3600812CF8D114DB0750999A /* Pods-ZBStudy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZBStudy.debug.xcconfig"; path = "Target Support Files/Pods-ZBStudy/Pods-ZBStudy.debug.xcconfig"; sourceTree = "<group>"; };
+		8D3764A82489303C003B32B8 /* CJAPIService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CJAPIService.swift; sourceTree = "<group>"; };
+		8D3764AA24893047003B32B8 /* CJDBService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CJDBService.swift; sourceTree = "<group>"; };
+		8D3764B124893290003B32B8 /* CJBaseNetWork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CJBaseNetWork.swift; sourceTree = "<group>"; };
+		8D3764BA248935F3003B32B8 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		8D3764BC248935FC003B32B8 /* GitHubRepositories.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitHubRepositories.swift; sourceTree = "<group>"; };
+		8D3764BE24893606003B32B8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		8DECCFDD247D0A33008495F4 /* ZBStudy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZBStudy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8DECCFE0247D0A33008495F4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8DECCFE7247D0A33008495F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8DECCFE9247D0A33008495F4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8DECCFEC247D0A33008495F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8DECCFEE247D0A33008495F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -46,7 +57,8 @@
 		8DECCFFE247D0A34008495F4 /* ZBStudyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZBStudyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8DECD002247D0A34008495F4 /* ZBStudyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZBStudyUITests.swift; sourceTree = "<group>"; };
 		8DECD004247D0A34008495F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8DECD014247D0D0D008495F4 /* ZBViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZBViewController.swift; sourceTree = "<group>"; };
+		A3530946B545B11286AF4E64 /* libPods-ZBStudy.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ZBStudy.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D32BBA0EDD9C79DDA6DC566A /* Pods-ZBStudy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZBStudy.release.xcconfig"; path = "Target Support Files/Pods-ZBStudy/Pods-ZBStudy.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F3296DE40BACFEB0A0C487E1 /* libPods-ZBStudy.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +87,240 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0058DE8EB9AFB5B23FA73FC4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A3530946B545B11286AF4E64 /* libPods-ZBStudy.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		31D1903A16F66A438A11AE94 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3600812CF8D114DB0750999A /* Pods-ZBStudy.debug.xcconfig */,
+				D32BBA0EDD9C79DDA6DC566A /* Pods-ZBStudy.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		8D36761024892CEB00BD3866 /* 网络 */ = {
+			isa = PBXGroup;
+			children = (
+				8D3764A82489303C003B32B8 /* CJAPIService.swift */,
+				8D3764B124893290003B32B8 /* CJBaseNetWork.swift */,
+			);
+			path = "网络";
+			sourceTree = "<group>";
+		};
+		8D36761124892CF900BD3866 /* 数据存储 */ = {
+			isa = PBXGroup;
+			children = (
+				8D3764AA24893047003B32B8 /* CJDBService.swift */,
+			);
+			path = "数据存储";
+			sourceTree = "<group>";
+		};
+		8D36761224892D0800BD3866 /* 业务 */ = {
+			isa = PBXGroup;
+			children = (
+				8D3764B62489358A003B32B8 /* MVVM例子 */,
+				8D3764B0248931BC003B32B8 /* 工具箱 */,
+				8D36761824892DB000BD3866 /* 分享 */,
+				8D3764A524892EAF003B32B8 /* 支付 */,
+				8D3764A624892EB8003B32B8 /* 播放器 */,
+				8D36761624892D6F00BD3866 /* 登录注册 */,
+				8D36761724892D7900BD3866 /* 课程 */,
+			);
+			path = "业务";
+			sourceTree = "<group>";
+		};
+		8D36761324892D3E00BD3866 /* 各组件 */ = {
+			isa = PBXGroup;
+			children = (
+				8D3764A724892F08003B32B8 /* 通知 */,
+				8D36761924892DBA00BD3866 /* 资源 */,
+				8D36761524892D6000BD3866 /* 埋点 */,
+				8D36761424892D5000BD3866 /* 路由 */,
+				8D36761124892CF900BD3866 /* 数据存储 */,
+				8D36761024892CEB00BD3866 /* 网络 */,
+				8D36761224892D0800BD3866 /* 业务 */,
+			);
+			path = "各组件";
+			sourceTree = "<group>";
+		};
+		8D36761424892D5000BD3866 /* 路由 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "路由";
+			sourceTree = "<group>";
+		};
+		8D36761524892D6000BD3866 /* 埋点 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "埋点";
+			sourceTree = "<group>";
+		};
+		8D36761624892D6F00BD3866 /* 登录注册 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "登录注册";
+			sourceTree = "<group>";
+		};
+		8D36761724892D7900BD3866 /* 课程 */ = {
+			isa = PBXGroup;
+			children = (
+				8D3764AF2489318A003B32B8 /* 课程详情 */,
+				8D3764AE2489316F003B32B8 /* 证书 */,
+				8D3764AD2489315F003B32B8 /* 练习 */,
+				8D3764AC24893154003B32B8 /* 学院课程 */,
+				8D36761C24892DEC00BD3866 /* 公开课 */,
+			);
+			path = "课程";
+			sourceTree = "<group>";
+		};
+		8D36761824892DB000BD3866 /* 分享 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "分享";
+			sourceTree = "<group>";
+		};
+		8D36761924892DBA00BD3866 /* 资源 */ = {
+			isa = PBXGroup;
+			children = (
+				8DECCFE0247D0A33008495F4 /* AppDelegate.swift */,
+				8DECCFE9247D0A33008495F4 /* Assets.xcassets */,
+				8DECCFEB247D0A33008495F4 /* LaunchScreen.storyboard */,
+				8DECCFEE247D0A33008495F4 /* Info.plist */,
+			);
+			path = "资源";
+			sourceTree = "<group>";
+		};
+		8D36761C24892DEC00BD3866 /* 公开课 */ = {
+			isa = PBXGroup;
+			children = (
+				8D36761F24892E1F00BD3866 /* View */,
+				8D36761E24892E1300BD3866 /* ModelView */,
+				8D36761D24892E0800BD3866 /* Model */,
+			);
+			path = "公开课";
+			sourceTree = "<group>";
+		};
+		8D36761D24892E0800BD3866 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8D36761E24892E1300BD3866 /* ModelView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ModelView;
+			sourceTree = "<group>";
+		};
+		8D36761F24892E1F00BD3866 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8D3764A524892EAF003B32B8 /* 支付 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "支付";
+			sourceTree = "<group>";
+		};
+		8D3764A624892EB8003B32B8 /* 播放器 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "播放器";
+			sourceTree = "<group>";
+		};
+		8D3764A724892F08003B32B8 /* 通知 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "通知";
+			sourceTree = "<group>";
+		};
+		8D3764AC24893154003B32B8 /* 学院课程 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "学院课程";
+			sourceTree = "<group>";
+		};
+		8D3764AD2489315F003B32B8 /* 练习 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "练习";
+			sourceTree = "<group>";
+		};
+		8D3764AE2489316F003B32B8 /* 证书 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "证书";
+			sourceTree = "<group>";
+		};
+		8D3764AF2489318A003B32B8 /* 课程详情 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "课程详情";
+			sourceTree = "<group>";
+		};
+		8D3764B0248931BC003B32B8 /* 工具箱 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "工具箱";
+			sourceTree = "<group>";
+		};
+		8D3764B62489358A003B32B8 /* MVVM例子 */ = {
+			isa = PBXGroup;
+			children = (
+				8D3764B9248935A6003B32B8 /* Model */,
+				8D3764B82489359C003B32B8 /* ViewModel */,
+				8D3764B724893595003B32B8 /* View */,
+			);
+			path = "MVVM例子";
+			sourceTree = "<group>";
+		};
+		8D3764B724893595003B32B8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8D3764BE24893606003B32B8 /* ViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8D3764B82489359C003B32B8 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				8D3764BA248935F3003B32B8 /* ViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		8D3764B9248935A6003B32B8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8D3764BC248935FC003B32B8 /* GitHubRepositories.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		8DECCFD4247D0A33008495F4 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +328,8 @@
 				8DECCFF6247D0A34008495F4 /* ZBStudyTests */,
 				8DECD001247D0A34008495F4 /* ZBStudyUITests */,
 				8DECCFDE247D0A33008495F4 /* Products */,
+				31D1903A16F66A438A11AE94 /* Pods */,
+				0058DE8EB9AFB5B23FA73FC4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,11 +346,7 @@
 		8DECCFDF247D0A33008495F4 /* ZBStudy */ = {
 			isa = PBXGroup;
 			children = (
-				8DECD012247D0C91008495F4 /* RX */,
-				8DECCFE0247D0A33008495F4 /* AppDelegate.swift */,
-				8DECCFE9247D0A33008495F4 /* Assets.xcassets */,
-				8DECCFEB247D0A33008495F4 /* LaunchScreen.storyboard */,
-				8DECCFEE247D0A33008495F4 /* Info.plist */,
+				8D36761324892D3E00BD3866 /* 各组件 */,
 			);
 			path = ZBStudy;
 			sourceTree = "<group>";
@@ -124,23 +369,6 @@
 			path = ZBStudyUITests;
 			sourceTree = "<group>";
 		};
-		8DECD012247D0C91008495F4 /* RX */ = {
-			isa = PBXGroup;
-			children = (
-				8DECCFE6247D0A33008495F4 /* Main.storyboard */,
-				8DECD013247D0CA0008495F4 /* Table */,
-			);
-			path = RX;
-			sourceTree = "<group>";
-		};
-		8DECD013247D0CA0008495F4 /* Table */ = {
-			isa = PBXGroup;
-			children = (
-				8DECD014247D0D0D008495F4 /* ZBViewController.swift */,
-			);
-			path = Table;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -148,6 +376,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8DECD007247D0A34008495F4 /* Build configuration list for PBXNativeTarget "ZBStudy" */;
 			buildPhases = (
+				72A21F2A70462126B9FB0EAA /* [CP] Check Pods Manifest.lock */,
 				8DECCFD9247D0A33008495F4 /* Sources */,
 				8DECCFDA247D0A33008495F4 /* Frameworks */,
 				8DECCFDB247D0A33008495F4 /* Resources */,
@@ -248,7 +477,6 @@
 			files = (
 				8DECCFED247D0A33008495F4 /* LaunchScreen.storyboard in Resources */,
 				8DECCFEA247D0A33008495F4 /* Assets.xcassets in Resources */,
-				8DECCFE8247D0A33008495F4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,13 +496,43 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		72A21F2A70462126B9FB0EAA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ZBStudy-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		8DECCFD9247D0A33008495F4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8DECD016247D0D0D008495F4 /* ZBViewController.swift in Sources */,
+				8D3764B224893290003B32B8 /* CJBaseNetWork.swift in Sources */,
+				8D3764BD248935FC003B32B8 /* GitHubRepositories.swift in Sources */,
+				8D3764BF24893606003B32B8 /* ViewController.swift in Sources */,
 				8DECCFE1247D0A33008495F4 /* AppDelegate.swift in Sources */,
+				8D3764A92489303C003B32B8 /* CJAPIService.swift in Sources */,
+				8D3764BB248935F3003B32B8 /* ViewModel.swift in Sources */,
+				8D3764AB24893047003B32B8 /* CJDBService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -310,14 +568,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		8DECCFE6247D0A33008495F4 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				8DECCFE7247D0A33008495F4 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		8DECCFEB247D0A33008495F4 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -445,6 +695,7 @@
 		};
 		8DECD008247D0A34008495F4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3600812CF8D114DB0750999A /* Pods-ZBStudy.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -463,6 +714,7 @@
 		};
 		8DECD009247D0A34008495F4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D32BBA0EDD9C79DDA6DC566A /* Pods-ZBStudy.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
