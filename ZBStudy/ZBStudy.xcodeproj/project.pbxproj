@@ -7,13 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8D3764A92489303C003B32B8 /* CJAPIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D3764A82489303C003B32B8 /* CJAPIService.swift */; };
 		8D3764AB24893047003B32B8 /* CJDBService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D3764AA24893047003B32B8 /* CJDBService.swift */; };
-		8D3764B224893290003B32B8 /* CJBaseNetWork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D3764B124893290003B32B8 /* CJBaseNetWork.swift */; };
-		8D3764BB248935F3003B32B8 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D3764BA248935F3003B32B8 /* ViewModel.swift */; };
-		8D3764BD248935FC003B32B8 /* GitHubRepositories.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D3764BC248935FC003B32B8 /* GitHubRepositories.swift */; };
-		8D3764BF24893606003B32B8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D3764BE24893606003B32B8 /* ViewController.swift */; };
-		8DECCFE1247D0A33008495F4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DECCFE0247D0A33008495F4 /* AppDelegate.swift */; };
+		8D4509E12489DBD900EE57D1 /* VideoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D4509DE2489DBD800EE57D1 /* VideoModel.swift */; };
+		8D4509E32489DBD900EE57D1 /* LoginModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D4509E02489DBD800EE57D1 /* LoginModel.swift */; };
+		8D4509E72489DBF500EE57D1 /* CJAPIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D4509E52489DBF500EE57D1 /* CJAPIService.swift */; };
+		8D4509EA2489DC0E00EE57D1 /* Observable+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D4509E82489DC0E00EE57D1 /* Observable+Extension.swift */; };
+		8D4509EB2489DC0E00EE57D1 /* Observable+ObjectMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D4509E92489DC0E00EE57D1 /* Observable+ObjectMapper.swift */; };
+		8D4509ED2489DC1C00EE57D1 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D4509EC2489DC1C00EE57D1 /* ViewModel.swift */; };
+		8D4509EF2489DC2E00EE57D1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D4509EE2489DC2E00EE57D1 /* ViewController.swift */; };
+		8D4509F12489DEDB00EE57D1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D4509F02489DEDB00EE57D1 /* AppDelegate.swift */; };
+		8D4509F32489DEE400EE57D1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D4509F22489DEE400EE57D1 /* Main.storyboard */; };
 		8DECCFEA247D0A33008495F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8DECCFE9247D0A33008495F4 /* Assets.xcassets */; };
 		8DECCFED247D0A33008495F4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DECCFEB247D0A33008495F4 /* LaunchScreen.storyboard */; };
 		8DECCFF8247D0A34008495F4 /* ZBStudyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DECCFF7247D0A34008495F4 /* ZBStudyTests.swift */; };
@@ -40,14 +43,17 @@
 
 /* Begin PBXFileReference section */
 		3600812CF8D114DB0750999A /* Pods-ZBStudy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZBStudy.debug.xcconfig"; path = "Target Support Files/Pods-ZBStudy/Pods-ZBStudy.debug.xcconfig"; sourceTree = "<group>"; };
-		8D3764A82489303C003B32B8 /* CJAPIService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CJAPIService.swift; sourceTree = "<group>"; };
 		8D3764AA24893047003B32B8 /* CJDBService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CJDBService.swift; sourceTree = "<group>"; };
-		8D3764B124893290003B32B8 /* CJBaseNetWork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CJBaseNetWork.swift; sourceTree = "<group>"; };
-		8D3764BA248935F3003B32B8 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
-		8D3764BC248935FC003B32B8 /* GitHubRepositories.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitHubRepositories.swift; sourceTree = "<group>"; };
-		8D3764BE24893606003B32B8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8D4509DE2489DBD800EE57D1 /* VideoModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoModel.swift; sourceTree = "<group>"; };
+		8D4509E02489DBD800EE57D1 /* LoginModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginModel.swift; sourceTree = "<group>"; };
+		8D4509E52489DBF500EE57D1 /* CJAPIService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CJAPIService.swift; sourceTree = "<group>"; };
+		8D4509E82489DC0E00EE57D1 /* Observable+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Observable+Extension.swift"; sourceTree = "<group>"; };
+		8D4509E92489DC0E00EE57D1 /* Observable+ObjectMapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Observable+ObjectMapper.swift"; sourceTree = "<group>"; };
+		8D4509EC2489DC1C00EE57D1 /* ViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		8D4509EE2489DC2E00EE57D1 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8D4509F02489DEDB00EE57D1 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8D4509F22489DEE400EE57D1 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		8DECCFDD247D0A33008495F4 /* ZBStudy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZBStudy.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		8DECCFE0247D0A33008495F4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8DECCFE9247D0A33008495F4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8DECCFEC247D0A33008495F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8DECCFEE247D0A33008495F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -107,8 +113,9 @@
 		8D36761024892CEB00BD3866 /* 网络 */ = {
 			isa = PBXGroup;
 			children = (
-				8D3764A82489303C003B32B8 /* CJAPIService.swift */,
-				8D3764B124893290003B32B8 /* CJBaseNetWork.swift */,
+				8D4509E52489DBF500EE57D1 /* CJAPIService.swift */,
+				8D4509E82489DC0E00EE57D1 /* Observable+Extension.swift */,
+				8D4509E92489DC0E00EE57D1 /* Observable+ObjectMapper.swift */,
 			);
 			path = "网络";
 			sourceTree = "<group>";
@@ -192,10 +199,7 @@
 		8D36761924892DBA00BD3866 /* 资源 */ = {
 			isa = PBXGroup;
 			children = (
-				8DECCFE0247D0A33008495F4 /* AppDelegate.swift */,
 				8DECCFE9247D0A33008495F4 /* Assets.xcassets */,
-				8DECCFEB247D0A33008495F4 /* LaunchScreen.storyboard */,
-				8DECCFEE247D0A33008495F4 /* Info.plist */,
 			);
 			path = "资源";
 			sourceTree = "<group>";
@@ -300,7 +304,7 @@
 		8D3764B724893595003B32B8 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				8D3764BE24893606003B32B8 /* ViewController.swift */,
+				8D4509EE2489DC2E00EE57D1 /* ViewController.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -308,7 +312,7 @@
 		8D3764B82489359C003B32B8 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
-				8D3764BA248935F3003B32B8 /* ViewModel.swift */,
+				8D4509EC2489DC1C00EE57D1 /* ViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -316,7 +320,8 @@
 		8D3764B9248935A6003B32B8 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				8D3764BC248935FC003B32B8 /* GitHubRepositories.swift */,
+				8D4509E02489DBD800EE57D1 /* LoginModel.swift */,
+				8D4509DE2489DBD800EE57D1 /* VideoModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -346,6 +351,10 @@
 		8DECCFDF247D0A33008495F4 /* ZBStudy */ = {
 			isa = PBXGroup;
 			children = (
+				8D4509F02489DEDB00EE57D1 /* AppDelegate.swift */,
+				8D4509F22489DEE400EE57D1 /* Main.storyboard */,
+				8DECCFEB247D0A33008495F4 /* LaunchScreen.storyboard */,
+				8DECCFEE247D0A33008495F4 /* Info.plist */,
 				8D36761324892D3E00BD3866 /* 各组件 */,
 			);
 			path = ZBStudy;
@@ -475,6 +484,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8D4509F32489DEE400EE57D1 /* Main.storyboard in Resources */,
 				8DECCFED247D0A33008495F4 /* LaunchScreen.storyboard in Resources */,
 				8DECCFEA247D0A33008495F4 /* Assets.xcassets in Resources */,
 			);
@@ -526,13 +536,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8D3764B224893290003B32B8 /* CJBaseNetWork.swift in Sources */,
-				8D3764BD248935FC003B32B8 /* GitHubRepositories.swift in Sources */,
-				8D3764BF24893606003B32B8 /* ViewController.swift in Sources */,
-				8DECCFE1247D0A33008495F4 /* AppDelegate.swift in Sources */,
-				8D3764A92489303C003B32B8 /* CJAPIService.swift in Sources */,
-				8D3764BB248935F3003B32B8 /* ViewModel.swift in Sources */,
+				8D4509ED2489DC1C00EE57D1 /* ViewModel.swift in Sources */,
+				8D4509E12489DBD900EE57D1 /* VideoModel.swift in Sources */,
+				8D4509EA2489DC0E00EE57D1 /* Observable+Extension.swift in Sources */,
+				8D4509EF2489DC2E00EE57D1 /* ViewController.swift in Sources */,
+				8D4509E72489DBF500EE57D1 /* CJAPIService.swift in Sources */,
+				8D4509E32489DBD900EE57D1 /* LoginModel.swift in Sources */,
 				8D3764AB24893047003B32B8 /* CJDBService.swift in Sources */,
+				8D4509EB2489DC0E00EE57D1 /* Observable+ObjectMapper.swift in Sources */,
+				8D4509F12489DEDB00EE57D1 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

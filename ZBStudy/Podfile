@@ -14,19 +14,19 @@ target 'ZBStudy' do
      #pod 'IQKeyboardManagerSwift'
      
      
-     pod 'SwiftDate', '~> 5.0'
+     #pod 'SwiftDate', '~> 5.0'
      #pod 'SCLAlertView'
   
      pod 'SwiftyJSON', '~> 4.0'
      
      #MVVM RXSwift ,Realm,路由
      pod 'Alamofire'
-     pod 'Moya' # 网络
+     pod 'Moya/RxSwift' # 网络
      pod 'ObjectMapper' #模型
      pod 'RxSwift'
-     pod 'URLNavigator'#swift 路由
      pod 'RxCocoa'
      
+     pod 'URLNavigator'#swift 路由
      #组件化 待查找
 end
 
